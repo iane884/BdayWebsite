@@ -293,7 +293,7 @@ button:active {
   font-size: 0.9rem;
 }
 
-/* Photo grids (cards + modal) */
+/* photo grids (cards + modal) */
 
 .photo-grid {
   display: grid;
@@ -312,7 +312,7 @@ button:active {
   border-radius: 12px;
 }
 
-/* Center captions under each photo */
+/* center captions under each photo */
 .photo-grid figure {
   text-align: center;
 }
@@ -369,10 +369,9 @@ button:active {
 }
 
 .modal-grid {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* nicer in modal */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-/* Polaroid gallery (if you add later) */
 .polaroid-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -515,7 +514,7 @@ button:active {
   color: var(--muted);
 }
 
-/* Crossword section */
+/* crossword section */
 
 .crossword-card {
   display: grid;
@@ -644,7 +643,7 @@ button:active {
   }
 }
 
-/* Carousel */
+/* 22 things */
 
 .fade-in {
   animation: fadeIn 0.55s ease;
