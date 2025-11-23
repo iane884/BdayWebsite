@@ -836,10 +836,10 @@ function initCrossword() {
       messageEl.textContent = 'WOOOOOO you solved it!';
     } else if (!allFilled) {
       messageEl.textContent =
-        'Some squares are still empty — try again!';
+        'Some squares are still empty - try again!';
     } else {
       messageEl.textContent =
-        'Close! The red squares need a tweak.';
+        'Close! The red squares need some fixing.';
     }
   });
 }
